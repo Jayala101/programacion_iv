@@ -3,6 +3,6 @@ package com.example.kotlin_j
 class example_hello {
 }
 
-fun app(){
+fun main(){
     println("Bienvenidos a Kotlin!!!")
 }
