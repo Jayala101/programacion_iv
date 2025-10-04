@@ -20,9 +20,53 @@ fun main(){
     } else {
         println("Padawam")
     }
-    modelo: String = "R2-D2"
-    when(modelo: String){
-        
+
+
+    var tipoDroide: String = "R2-D2"
+    when(tipoDroide){
+        "R2-D2", "R2-Q5"->println("Droide astromecánico")
+        "C-3PO", "C-3PA"->println("Droide de protocolo")
+        "BB-8", "BB-9E"->println("Droide de nueva generación")
     }
+
+    var peligro: Int = 5
+    var recompensa: Int = 5
+    when{
+        peligro > 8 && recompensa < 1000->println("Misión Rechazada")
+        peligro <= 3->println("Misión Aceptada")
+        else->println("Requiere Evaluación Adicional")
+    }
+
+    var rojo: String = "Rojo"
+    var verde: String = "Verde"
+    var amarillo: String = "Amarillo"
+    var semaforo: String = "Verde"
+    var calle: Boolean = false
+    when{
+        semaforo == rojo->println("Esperar")
+        semaforo == amarillo->println("Precaución")
+        semaforo == verde->println("Avanzar")
+        semaforo == rojo && calle->println("Esperar")
+        semaforo == amarillo && calle->println("Esperar")
+        semaforo == verde && calle->println("Esperar")
+    }
+
+    var mes: String = "enero"
+
+    when(mes) {
+            "enero" -> println("Acuario")
+            "febrero" -> println("Piscis")
+            "marzo" -> println("Aries")
+            "abril" -> println("Tauro")
+            "mayo" -> println("Géminis")
+            "junio" -> println("Cáncer")
+            "julio" -> println("Leo")
+            "agosto" -> println("Virgo")
+            "septiembre" -> println("Libra")
+            "octubre" -> println("Escorpio")
+            "noviembre" -> println("Sagitario")
+            "diciembre" -> println("Capricornio")
+            else -> "Mes no válido"
+        }
 
 }
