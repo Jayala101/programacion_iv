@@ -1,5 +1,6 @@
 package com.example.kotlin_j
 
+
 class VueloSobrecargadoException(message: String) : Exception(message)
 class CombustibleInsuficienteException(message: String) : Exception(message)
 class DestinoNoDisponibleException(message: String) : Exception(message)
