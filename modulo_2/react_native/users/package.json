@@ -1,5 +1,5 @@
 {
-  "name": "mi-app-rn2",
+  "name": "users",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-navigation/native": "^7.1.19",
     "@react-navigation/native-stack": "^7.6.1",
+    "axios": "^1.13.1",
     "expo": "~54.0.20",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
