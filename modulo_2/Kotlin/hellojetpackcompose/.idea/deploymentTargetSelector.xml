@@ -20,19 +20,19 @@
       <SelectionState runConfigName="MainActivity (3)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainLista">
+      <SelectionState runConfigName="MainHealthExercises">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainLista (2)">
+      <SelectionState runConfigName="MainHealthExercises (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainNavigation (1)">
+      <SelectionState runConfigName="MainHealthExercises (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainNavigation (2)">
+      <SelectionState runConfigName="MainMoneyExercises">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainLista (1)">
+      <SelectionState runConfigName="MainStatsExercises">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
