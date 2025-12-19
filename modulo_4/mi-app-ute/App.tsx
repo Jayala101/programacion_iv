@@ -2,10 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import TypeScriptDemo from './src/screens/TypeScriptDemo';
 import AppButton from './src/components/AppButton';
+import { AppTitle } from "@/components/common/AppTitle";
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <AppTitle value="Estructura lista" />
       <Text style={styles.title}>React Native + TypeScript</Text>
       <Text>Entorno listo ✅</Text>
       <TypeScriptDemo/>
