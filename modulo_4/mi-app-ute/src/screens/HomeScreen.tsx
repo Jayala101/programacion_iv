@@ -1,6 +1,6 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-import type { RootStackParamList } from "@/navigation/types";
+import type { RootStackParamList } from "@/types";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 
@@ -30,6 +30,13 @@ export function HomeScreen({ navigation }: Props) {
         >
         <Text style={styles.btnText}>Abrir Settings (Storage)</Text>
         </Pressable>
+
+        <Pressable
+                style={[styles.btn, { marginTop: 10 }]}
+                onPress={() => navigation.navigate("Raiz")}
+                >
+                <Text style={styles.btnText}>Formula de la raiz cuadratica</Text>
+                </Pressable>
 
       <Pressable
         style={styles.btn}
