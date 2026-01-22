@@ -10,9 +10,9 @@ fun main() {
 
     while (ahorroActual < meta) {
         ahorroActual += depositoSemanal
-        println("Semana $semana: Depósito = $depositoSemanal, Ahorro Total = $ahorroActual")
+        println("Semana $semana: Deposito = $depositoSemanal, Ahorro Total = $ahorroActual")
         depositoSemanal += 10
         semana++
     }
-    println("¡Meta alcanzada en ${semana - 1} semanas!")
+    println("Meta alcanzada en ${semana - 1} semanas!")
 }

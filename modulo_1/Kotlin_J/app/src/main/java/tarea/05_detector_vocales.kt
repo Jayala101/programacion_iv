@@ -14,7 +14,7 @@ fun main() {
         val charSiguiente = texto[i + 1]
 
         if (esVocal(charActual) && esVocal(charSiguiente)) {
-            contador++  // ¡Encontré un par!
+            contador++
         }
     }
     println("El numero total de vocales es: $contador")
